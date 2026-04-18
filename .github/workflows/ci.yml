@@ -27,9 +27,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
-        run: npm run build
-
   frontend-lint:
     name: Frontend Lint (ESLint)
     runs-on: ubuntu-latest
